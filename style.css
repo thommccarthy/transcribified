@@ -1,0 +1,43 @@
+body {
+
+
+	
+}
+
+body::after {
+  content: "";
+  background: url(assets/img/sheet.jpg);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.logo-image {
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-top: -6px;
+}
+
+.navtext {
+	color: black;
+	margin: 12px;
+}
+
+.background-opacity {
+	opacity: 0.3;
+}
+
+.pixelsheet2 {
+  height: 500px;
+}
+
+.comingsoon {
+  font-size: 40px;
+  font-color: white;
+}
